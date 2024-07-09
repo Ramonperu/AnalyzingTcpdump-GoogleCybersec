@@ -2,9 +2,9 @@
 
 Vamos a analizar un log el cual se nos ha proporcionado en el curso y se incluye dentro de este repositorio, para ello hemos de identificar puertos, protocolos y origen y destino(Se ha añadido un documento acerca de como leer los logs).
 
-### Reporte de Incidente de Seguridad
+## Reporte de Incidente de Seguridad
 
-#### Sección 1: Identificar el Protocolo de Red Involucrado en el Incidente
+### Sección 1: Identificar el Protocolo de Red Involucrado en el Incidente
 
 **Protocolos de Red Identificados:**
 
@@ -42,7 +42,7 @@ Vamos a analizar un log el cual se nos ha proporcionado en el curso y se incluye
 
 Probablemente aquí se encuentra el problema, vemos bastantes iguales
 
-#### Sección 2: Documentar el Incidente
+### Sección 2: Documentar el Incidente
 
 **Detalles del Incidente:**
 
@@ -122,7 +122,7 @@ Un ataque de fuerza bruta se caracteriza por un volumen elevado y repetitivo de 
 
 
 
-#### Sección 3: Recomendar una Remediación para Ataques de Fuerza Bruta
+### Sección 3: Recomendar una Remediación para Ataques de Fuerza Bruta
 
 **Recomendación de Remediación:**
 
