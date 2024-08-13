@@ -122,7 +122,7 @@ Un ataque de fuerza bruta se caracteriza por un volumen elevado y repetitivo de 
 
 
 
-### Sección 3: Recomendar una Remediación para Ataques de Fuerza Bruta
+### Sección 3: 
 
 **Recomendación de Remediación:**
 
