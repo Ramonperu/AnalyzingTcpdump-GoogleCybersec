@@ -122,8 +122,6 @@ Un ataque de fuerza bruta se caracteriza por un volumen elevado y repetitivo de 
 
 
 
-### Sección 3: 
-
 **Recomendación de Remediación:**
 
 - **Uso de Firewalls de Aplicaciones Web (WAF):** Configurar un WAF para detectar y bloquear solicitudes excesivas de una sola dirección IP.
