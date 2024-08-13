@@ -8,7 +8,7 @@ Vamos a analizar un log el cual se nos ha proporcionado en el curso y se incluye
 
 **Protocolos de Red Identificados:**
 
-1. **Protocolo DNS (Domain Name System):**
+**Protocolo DNS (Domain Name System):**
 
    - Este protocolo se utiliza para traducir nombres de dominio (por ejemplo, yummyrecipesforme.com, greatrecipesforme.com) en direcciones IP.
 
@@ -19,7 +19,7 @@ Vamos a analizar un log el cual se nos ha proporcionado en el curso y se incluye
      14:18:32.204388 IP dns.google.domain > your.machine.52444: 35084 1/0/0 A 203.0.113.22 (40)
      ```
 
-2. **Protocolo TCP (Transmission Control Protocol):**
+**Protocolo TCP (Transmission Control Protocol):**
 
    - Este protocolo se utiliza para establecer conexiones y transferir datos de manera confiable.
 
@@ -30,7 +30,7 @@ Vamos a analizar un log el cual se nos ha proporcionado en el curso y se incluye
      14:18:36.786517 IP yummyrecipesforme.com.http > your.machine.36086: Flags [S.], seq 3984334959, ack 2873951609, win 65483, options [mss 65495,sackOK,TS val 3302576859 ecr 3302576859,nop,wscale 7], length 0
      ```
 
-3. **Protocolo HTTP (Hypertext Transfer Protocol):**
+**Protocolo HTTP (Hypertext Transfer Protocol):**
 
    - Este protocolo se utiliza para transferir solicitudes y datos de hipertexto en la web.
 
@@ -46,7 +46,7 @@ Probablemente aquí se encuentra el problema, vemos bastantes iguales
 
 **Detalles del Incidente:**
 
-1. **Solicitudes y Respuestas DNS:**
+ **Solicitudes y Respuestas DNS:**
 
    - **Solicitud DNS:**
 
@@ -64,7 +64,7 @@ Probablemente aquí se encuentra el problema, vemos bastantes iguales
 
      El servidor DNS responde con la dirección IP "203.0.113.22" para "yummyrecipesforme.com".
 
-2. **Intercambio de TCP:**
+ **Intercambio de TCP:**
 
    - **Paquete SYN:**
 
@@ -90,7 +90,7 @@ Probablemente aquí se encuentra el problema, vemos bastantes iguales
 
      La máquina envía un paquete ACK para establecer la conexión.
 
-3. **Solicitud HTTP:**
+ **Solicitud HTTP:**
 
    - Solicitud HTTP GET:
 
